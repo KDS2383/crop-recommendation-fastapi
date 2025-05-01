@@ -1,5 +1,5 @@
-# requirements.txt (add this line if not present)
-requests
+gdown
+requests # Keep requests if other parts of your code use it, otherwise optional
 fastapi
 uvicorn[standard]
 pandas
