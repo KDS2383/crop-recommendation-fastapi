@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard] # Includes standard ASGI server features
+pandas
+numpy
+scikit-learn  # For joblib and ML model compatibility
+pymongo[srv]  # For MongoDB Atlas connection string format
+pydantic
+python-dotenv # Good practice, though Render uses its own env vars
+# Add any other libraries you specifically installed and use
