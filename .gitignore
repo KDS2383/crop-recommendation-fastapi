@@ -1,21 +1,16 @@
-# Python cache
+# .gitignore (add this line)
+models/crop_recommender_model_reduced.joblib
+
+# ... other entries ...
 __pycache__/
 *.pyc
-
-# Virtual environment
 venv/
 .venv/
 env/
 ENV/
 *.env
-
-# OS specific files
 .DS_Store
 Thumbs.db
-
-# IDE specific files
 .vscode/
 .idea/
-
-# Potentially sensitive files (if you ever use .env locally)
 .env

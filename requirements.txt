@@ -1,9 +1,10 @@
+# requirements.txt (add this line if not present)
+requests
 fastapi
-uvicorn[standard] # Includes standard ASGI server features
+uvicorn[standard]
 pandas
 numpy
-scikit-learn  # For joblib and ML model compatibility
-pymongo[srv]  # For MongoDB Atlas connection string format
+scikit-learn
+pymongo[srv]
 pydantic
-python-dotenv # Good practice, though Render uses its own env vars
-# Add any other libraries you specifically installed and use
+python-dotenv
